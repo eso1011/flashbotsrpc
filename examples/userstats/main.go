@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/eso1011/flashbotsrpc"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/metachris/flashbotsrpc"
 )
 
 var privateKey, _ = crypto.GenerateKey() // creating a new private key for testing. you probably want to use an existing key.
